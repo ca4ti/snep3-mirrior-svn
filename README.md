@@ -1,5 +1,9 @@
 [![N|Solid](https://imgs.opens.com.br/docs/opens/img-snep-off.png)](https://snep.com.br)
 
+::: danger Atenção
+Este projeto foi descontinuado. Se você precisa de uma solução Corporativa de Telefonia procure a evolução deste projeto, o [SNEP7](https://www.opens.com.br).
+:::
+
 # O que é #
 
 O `SNEP` é um **PBX Livre** baseado em Software que atende as necessidades de qualquer porte de negócio, com recursos que tornam a comunicação mais livre, flexível e inteligente.
@@ -14,7 +18,7 @@ O SNEP foi construído com a colaboração de diversos desenvolvedores e usuári
 ---
 # Um Ecossistema de Oportunidades #
 
-Escolha e foque no seu mercado de atuação, que o ecossistema faz o resto para você. 
+Escolha e foque no seu mercado de atuação, que o ecossistema faz o resto para você.
 Além de um projeto de Software o SNEP se propõe à criar um ecossistema de negócios que possibilite a atuação de diferentes perfis de colaboradores: desenvolvedores, integradores , fabricantes e usuários.
 
 ---
@@ -31,7 +35,7 @@ Guia prático com [funcionalidades do Snep](/docs/PRACTICAL_GUIDE.md).
 ---
 # Como colaborar #
 
-Seja bem vindo para colaborar com o Projeto, 
+Seja bem vindo para colaborar com o Projeto,
 
 Existem diferentes formas de colaborar com o projeto **SNEP**, seja traduzindo, reportando erros, corrigindo e/ou desenvolvendo.
 
@@ -53,4 +57,3 @@ Para saber quais funcionalidades foram implementadas em cada versão acesse o [c
 ---
 ## [Licença](LICENSE.md) ##
 [![License: GPL v2](https://img.shields.io/badge/License-GPL%20v2-blue.svg)](https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html)
-
