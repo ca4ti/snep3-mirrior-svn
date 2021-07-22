@@ -16,7 +16,6 @@
  *  along with SNEP.  If not, see <http://www.gnu.org/licenses/>.
  */
 
- 
 /**
  * Audit Controller
  *
@@ -31,23 +30,23 @@ class AuditController extends Zend_Controller_Action {
      * Initial settings of the class
      */
     public function init() {
-      
+
         $this->view->url = $this->getFrontController()->getBaseUrl() . '/' . $this->getRequest()->getControllerName();
         $this->view->lineNumber = Zend_Registry::get('config')->ambiente->linelimit;
         $this->view->baseUrl = Zend_Controller_Front::getInstance()->getBaseUrl();
         $this->view->key = Snep_Dashboard_Manager::getKey(Zend_Controller_Front::getInstance()->getRequest()->getModuleName(), Zend_Controller_Front::getInstance()->getRequest()->getControllerName(), Zend_Controller_Front::getInstance()->getRequest()->getActionName());
     }
-    
+
     /**
      * indexAction - audit form page
      */
     public function indexAction() {
-    
+
         $this->view->breadcrumb = $this->view->translate("Audit");
         $config = Zend_Registry::get('config');
 
         $db = Zend_Registry::get('db');
-        
+
         $this->view->groups = array(
             "all" => $this->view->translate('All Actions'),
             "ccustos" => $this->view->translate('Tags Actions'),
@@ -78,7 +77,7 @@ class AuditController extends Zend_Controller_Action {
             $this->view->startDate = false;
             $this->view->endDate = false;
         }
-        
+
         if ($this->_request->getPost()) {
             $this->viewAction();
         }
@@ -88,7 +87,7 @@ class AuditController extends Zend_Controller_Action {
     * viewAction - audit list page
     */
     public function viewAction(){
-      
+
       $formData = $this->_request->getParams();
 
       $auth = Zend_Auth::getInstance();
@@ -123,7 +122,7 @@ class AuditController extends Zend_Controller_Action {
             break;
         }
       }
-      
+
       $this->view->logs = $data;
       $this->renderScript('audit/view.phtml');
 
