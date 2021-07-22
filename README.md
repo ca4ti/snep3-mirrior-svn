@@ -1,8 +1,6 @@
 [![N|Solid](https://imgs.opens.com.br/docs/opens/img-snep-off.png)](https://snep.com.br)
 
-::: danger Atenção
-Este projeto foi descontinuado. Se você precisa de uma solução Corporativa de Telefonia procure a evolução deste projeto, o [SNEP7](https://www.opens.com.br).
-:::
+:warning: **Este projeto foi descontinuado.** Se você precisa de uma solução Corporativa de Telefonia procure a evolução deste projeto, o [SNEP7](https://www.opens.com.br).
 
 
 # O que é #
